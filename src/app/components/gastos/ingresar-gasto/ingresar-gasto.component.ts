@@ -39,7 +39,7 @@ const GASTO = {
 }
 
     //enviar el obj a los subs via subjet
-
+  this._presupuestoService.agregarGasto(GASTO);
 
     //reset form
     this.formularioIncorrecto = false;
